@@ -3,5 +3,15 @@
 }
 .card{
     border-radius: 20px;
-    ma
+    margin-left: 100px;
+    height: 100px;
+    background-color: #100000;
+    flex: 1;
+    transition: 3s all ease;
+    margin-top: 200px;
+}
+
+.card:hover{
+    flex: 2;
+    background-color: rgb(188, 157, 157);
 }
